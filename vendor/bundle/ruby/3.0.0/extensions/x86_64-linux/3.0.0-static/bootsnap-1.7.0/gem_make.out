@@ -1,0 +1,26 @@
+current directory: /home/necmi/Microverse/Ruby_On_Rails/odin_on_rails/my_first_rails_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.0/ext/bootsnap
+/usr/local/bin/ruby -I /usr/local/lib/ruby/3.0.0 -r ./siteconf20210201-122190-qxr5no.rb extconf.rb
+creating Makefile
+
+current directory: /home/necmi/Microverse/Ruby_On_Rails/odin_on_rails/my_first_rails_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.0/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /home/necmi/Microverse/Ruby_On_Rails/odin_on_rails/my_first_rails_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.0/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+bootsnap.c: In function ‘bs_cache_path’:
+bootsnap.c:301:39: warning: format ‘%llx’ expects argument of type ‘long long unsigned int’, but argument 5 has type ‘uint64_t’ {aka ‘long unsigned int’} [-Wformat=]
+  301 |   sprintf(*cache_path, "%s/%02x/%014llx", cachedir, first_byte, remainder);
+      |                                 ~~~~~~^                         ~~~~~~~~~
+      |                                       |                         |
+      |                                       long long unsigned int    uint64_t {aka long unsigned int}
+      |                                 %014lx
+bootsnap.c: At top level:
+cc1: warning: unrecognized command line option ‘-Wno-self-assign’
+cc1: warning: unrecognized command line option ‘-Wno-parentheses-equality’
+cc1: warning: unrecognized command line option ‘-Wno-constant-logical-operand’
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/necmi/Microverse/Ruby_On_Rails/odin_on_rails/my_first_rails_app/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.7.0/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20210201-122190-4o42hy/bootsnap

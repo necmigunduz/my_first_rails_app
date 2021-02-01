@@ -1,0 +1,19 @@
+current directory: /home/necmi/Microverse/Ruby_On_Rails/odin_on_rails/my_first_rails_app/vendor/bundle/ruby/3.0.0/gems/byebug-11.1.3/ext/byebug
+/usr/local/bin/ruby -I /usr/local/lib/ruby/3.0.0 -r ./siteconf20210201-122190-8798aa.rb extconf.rb
+creating Makefile
+
+current directory: /home/necmi/Microverse/Ruby_On_Rails/odin_on_rails/my_first_rails_app/vendor/bundle/ruby/3.0.0/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/necmi/Microverse/Ruby_On_Rails/odin_on_rails/my_first_rails_app/vendor/bundle/ruby/3.0.0/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/necmi/Microverse/Ruby_On_Rails/odin_on_rails/my_first_rails_app/vendor/bundle/ruby/3.0.0/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20210201-122190-cvstn6/byebug
